@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+{
+    NSMutableArray  *arrayForBool;
+    NSArray *sectionTitleArray;
+
+}
+@property (weak, nonatomic) IBOutlet UITableView *expandableTableView;
 
 @end

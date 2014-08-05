@@ -21,6 +21,12 @@
 		62910321199123BA00266204 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62910303199123BA00266204 /* UIKit.framework */; };
 		62910329199123BA00266204 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62910327199123BA00266204 /* InfoPlist.strings */; };
 		6291032B199123BA00266204 /* matyExpandableTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6291032A199123BA00266204 /* matyExpandableTableViewTests.m */; };
+		629103351991276F00266204 /* wood-floors.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 629103341991276F00266204 /* wood-floors.jpg */; };
+		6291033D1991303A00266204 /* circle_drop_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 629103391991303A00266204 /* circle_drop_down.png */; };
+		6291033E1991303A00266204 /* circle_drop_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6291033A1991303A00266204 /* circle_drop_down@2x.png */; };
+		6291033F1991303A00266204 /* circle_drop_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 6291033B1991303A00266204 /* circle_drop_up.png */; };
+		629103401991303A00266204 /* circle_drop_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6291033C1991303A00266204 /* circle_drop_up@2x.png */; };
+		62910343199135BA00266204 /* appleLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 62910342199135BA00266204 /* appleLogo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,12 @@
 		62910326199123BA00266204 /* matyExpandableTableViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "matyExpandableTableViewTests-Info.plist"; sourceTree = "<group>"; };
 		62910328199123BA00266204 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6291032A199123BA00266204 /* matyExpandableTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = matyExpandableTableViewTests.m; sourceTree = "<group>"; };
+		629103341991276F00266204 /* wood-floors.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wood-floors.jpg"; sourceTree = "<group>"; };
+		629103391991303A00266204 /* circle_drop_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle_drop_down.png; sourceTree = "<group>"; };
+		6291033A1991303A00266204 /* circle_drop_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle_drop_down@2x.png"; sourceTree = "<group>"; };
+		6291033B1991303A00266204 /* circle_drop_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle_drop_up.png; sourceTree = "<group>"; };
+		6291033C1991303A00266204 /* circle_drop_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle_drop_up@2x.png"; sourceTree = "<group>"; };
+		62910342199135BA00266204 /* appleLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appleLogo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +129,7 @@
 				62910311199123BA00266204 /* Main.storyboard */,
 				62910314199123BA00266204 /* ViewController.h */,
 				62910315199123BA00266204 /* ViewController.m */,
+				629103411991306300266204 /* Images */,
 				62910317199123BA00266204 /* Images.xcassets */,
 				62910306199123BA00266204 /* Supporting Files */,
 			);
@@ -150,6 +163,19 @@
 				62910327199123BA00266204 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		629103411991306300266204 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				629103341991276F00266204 /* wood-floors.jpg */,
+				629103391991303A00266204 /* circle_drop_down.png */,
+				6291033A1991303A00266204 /* circle_drop_down@2x.png */,
+				6291033B1991303A00266204 /* circle_drop_up.png */,
+				6291033C1991303A00266204 /* circle_drop_up@2x.png */,
+				62910342199135BA00266204 /* appleLogo.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +255,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				62910318199123BA00266204 /* Images.xcassets in Resources */,
+				6291033E1991303A00266204 /* circle_drop_down@2x.png in Resources */,
+				6291033F1991303A00266204 /* circle_drop_up.png in Resources */,
+				6291033D1991303A00266204 /* circle_drop_down.png in Resources */,
+				629103401991303A00266204 /* circle_drop_up@2x.png in Resources */,
+				62910343199135BA00266204 /* appleLogo.png in Resources */,
+				629103351991276F00266204 /* wood-floors.jpg in Resources */,
 				6291030A199123BA00266204 /* InfoPlist.strings in Resources */,
 				62910313199123BA00266204 /* Main.storyboard in Resources */,
 			);
@@ -379,6 +411,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "matyExpandableTableView/matyExpandableTableView-Prefix.pch";
 				INFOPLIST_FILE = "matyExpandableTableView/matyExpandableTableView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,6 +425,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "matyExpandableTableView/matyExpandableTableView-Prefix.pch";
 				INFOPLIST_FILE = "matyExpandableTableView/matyExpandableTableView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
